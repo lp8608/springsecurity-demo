@@ -3,6 +3,7 @@ package com.lp.web.controller;
 import com.fasterxml.jackson.annotation.JsonView;
 import com.lp.dto.User;
 import com.lp.dto.UserQueryCondition;
+import com.lp.exception.UserNotExistException;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import org.springframework.data.domain.Pageable;
@@ -36,6 +37,9 @@ public class UserController {
     @JsonView(User.UserDetailView.class)
     @GetMapping("/{id:\\d+}")
     public User getUserInfo(@PathVariable String id){
+//        throw new RuntimeException("user not exist");
+//        throw new UserNotExistException("user not exist");
+        System.out.println("进入getInfo服务");
         User user = new User();
         user.setUsername("tom");
         return user;
