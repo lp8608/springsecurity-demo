@@ -33,9 +33,11 @@ public class User {
 	private String password;
 	
 	@Past(message = "生日必须是过去的时间")
+	@ApiModelProperty("用户生日")
 	private Date birthday;
 
 	@Email(message="必须使用邮件格式")
+	@ApiModelProperty("用户邮箱")
 	private String email;
 
 
