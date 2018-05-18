@@ -1,15 +1,11 @@
 package com.lp.security.core.util;
 
-import com.lp.security.core.validate.code.ImageCode;
+import com.lp.security.core.validatecode.image.ImageCode;
 
-import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.util.Arrays;
 import java.util.Random;
 
