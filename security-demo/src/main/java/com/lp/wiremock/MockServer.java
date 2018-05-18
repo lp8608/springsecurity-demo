@@ -1,9 +1,4 @@
-package com.lp.wiremock;/**
- * @Description: 类描述
- * @author LIPENGAK
- * @date 2018/5/5 0005 17:49
- */
-
+package com.lp.wiremock;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.core.io.ClassPathResource;
@@ -13,7 +8,7 @@ import java.io.IOException;
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 /**
  * @author LIPENGAK
- * @Description: 类描述
+ * @Description: WIREMOCK测试
  * @date 2018/5/5 0005 17:49
  */
 public class MockServer {
@@ -23,6 +18,7 @@ public class MockServer {
         removeAllMappings();
         mock("/order/1","1");
         mock("/order/2","2");
+        mock("/getCIData","3");
     }
 
     private static void mock(String url,String file) throws IOException {

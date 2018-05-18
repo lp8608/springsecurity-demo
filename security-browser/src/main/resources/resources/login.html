@@ -5,7 +5,7 @@
     <title>spring-security-browser-login</title>
 </head>
 <body>
-    <h2>标准登录页面</h2>
+    <h2>标准表单登录页面</h2>
     <form action="/authentication/form" method="post">
         <table>
             <tr>
@@ -25,6 +25,25 @@
             </tr>
             <tr>
                 <td colspan='2'><input name="remember-me" type="checkbox" value="true" />记住我</td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">登录</button></td>
+            </tr>
+        </table>
+    </form>
+    <h2>标准短信验证码登录表单</h2>
+    <form action="/authentication/mobile" method="post">
+        <table>
+            <tr>
+                <td>手机号:</td>
+                <td><input type="text" name="mobile" value="15221267290"></td>
+            </tr>
+            <tr>
+                <td>短信验证码:</td>
+                <td>
+                    <input type="text" name="smsCode">
+                    <a href="/code/sms?mobile=15221267290">发送短信</a>
+                </td>
             </tr>
             <tr>
                 <td colspan="2"><button type="submit">登录</button></td>

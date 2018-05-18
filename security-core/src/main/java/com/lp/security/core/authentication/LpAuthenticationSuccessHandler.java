@@ -21,15 +21,17 @@ import java.io.IOException;
 @Component
 public class LpAuthenticationSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
 
+    /**
+     * 转JSON格式字符串
+     */
     @Autowired
-    private ObjectMapper objectMapper;   //转JSON格式字符串
+    private ObjectMapper objectMapper;
 
     @Autowired
     private SecurityProperties securityProperties;
 
     @Override
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication) throws ServletException, IOException {
-//        log.info("登录成功");
 
         if (LoginResponseType.JSON.equals(securityProperties.getBrowser().getLoginType())) {
             response.setContentType("application/json;charset=UTF-8");

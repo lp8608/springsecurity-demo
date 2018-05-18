@@ -24,8 +24,11 @@ public class LpAuthenticationFailHandler extends SimpleUrlAuthenticationFailureH
 
     @Autowired
     private SecurityProperties securityProperties;
+    /**
+     * 转JSON格式字符串
+     */
     @Autowired
-    private ObjectMapper objectMapper;   //转JSON格式字符串
+    private ObjectMapper objectMapper;
 
     @Override
     public void onAuthenticationFailure(HttpServletRequest request, HttpServletResponse response, AuthenticationException exception) throws IOException, ServletException {

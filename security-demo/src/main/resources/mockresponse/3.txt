@@ -1,0 +1,463 @@
+{
+    "code": "0000",
+    "msg": "成功",
+    "data": [
+        {
+            "tableName": "BIOS信息",
+            "tableData": {
+                "columnName": [
+                    "版本",
+                    "地址",
+                    "运行大小",
+                    "只读存储器大小",
+                    "供应商"
+                ],
+                "columnValue": [
+                    [
+                        {
+                            "id": 2,
+                            "attrValue": " 4.4.1-xs90192",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 3,
+                            "attrValue": " 0xE8000",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 4,
+                            "attrValue": " 96 kB",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 5,
+                            "attrValue": " 64 kB",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 6,
+                            "attrValue": " Xen",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        }
+                    ]
+                ]
+            }
+        },
+        {
+            "tableName": "文件系统",
+            "tableData": {
+                "columnName": [
+                    "分区名",
+                    "分区类型",
+                    "分区总空间",
+                    "分区已使用空间",
+                    "分区未使用空间",
+                    "挂载点"
+                ],
+                "columnValue": [
+                    [
+                        {
+                            "id": 8,
+                            "attrValue": "/dev/mapper/vg_rhle6-lv_root",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 9,
+                            "attrValue": "ext4",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 10,
+                            "attrValue": "50G",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 11,
+                            "attrValue": "6.8G",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 12,
+                            "attrValue": "40G",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 13,
+                            "attrValue": "/",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        }
+                    ],
+                    [
+                        {
+                            "id": 14,
+                            "attrValue": "tmpfs",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 15,
+                            "attrValue": "tmpfs",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 16,
+                            "attrValue": "3.9G",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 17,
+                            "attrValue": "0",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 18,
+                            "attrValue": "3.9G",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 19,
+                            "attrValue": "/dev/shm",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        }
+                    ],
+                    [
+                        {
+                            "id": 20,
+                            "attrValue": "/dev/xvda1",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 21,
+                            "attrValue": "ext4",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 22,
+                            "attrValue": "485M",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 23,
+                            "attrValue": "34M",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 24,
+                            "attrValue": "426M",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 25,
+                            "attrValue": "/boot",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        }
+                    ],
+                    [
+                        {
+                            "id": 26,
+                            "attrValue": "/dev/mapper/vg_rhle6-lv_home",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 27,
+                            "attrValue": "ext4",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 28,
+                            "attrValue": "42G",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 29,
+                            "attrValue": "19G",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 30,
+                            "attrValue": "21G",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 31,
+                            "attrValue": "/home",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        }
+                    ],
+                    [
+                        {
+                            "id": 32,
+                            "attrValue": "/dev/sr0",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 33,
+                            "attrValue": "iso9660",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 34,
+                            "attrValue": "3.6G",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 35,
+                            "attrValue": "3.6G",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 36,
+                            "attrValue": "0",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 37,
+                            "attrValue": "/mnt/cdrom",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        }
+                    ]
+                ]
+            }
+        },
+        {
+            "tableName": "网络接口",
+            "tableData": {
+                "columnName": [
+                    "接口名",
+                    "接口IP",
+                    "接口速率",
+                    "端口入速率",
+                    "端口出速率",
+                    "MAC地址",
+                    "接口类型"
+                ],
+                "columnValue": [
+                    [
+                        {
+                            "id": 39,
+                            "attrValue": "lo",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 40,
+                            "attrValue": "127.0.0.1",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 41,
+                            "attrValue": "0Mbps",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 42,
+                            "attrValue": "     4.76Kbps",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 43,
+                            "attrValue": "     4.76Kbps",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        }
+                    ],
+                    [
+                        {
+                            "id": 44,
+                            "attrValue": "eth0",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 45,
+                            "attrValue": "10.5.5.55",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 46,
+                            "attrValue": "1E:08:82:DB:74:35",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 47,
+                            "attrValue": "Ethernet",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 48,
+                            "attrValue": "0Mbps",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 49,
+                            "attrValue": "    89.81Kbps",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 50,
+                            "attrValue": "     1.00Kbps",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        }
+                    ],
+                    [
+                        {
+                            "id": 51,
+                            "attrValue": "eth1",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 52,
+                            "attrValue": "E2:93:CE:61:D0:A2",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 53,
+                            "attrValue": "Ethernet",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 54,
+                            "attrValue": "0Mbps",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 55,
+                            "attrValue": "     0.00Kbps",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 56,
+                            "attrValue": "     0.00Kbps",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        }
+                    ],
+                    [
+                        {
+                            "id": 57,
+                            "attrValue": "eth2",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 58,
+                            "attrValue": "FA:C0:C6:A8:5C:E3",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 59,
+                            "attrValue": "Ethernet",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 60,
+                            "attrValue": "0Mbps",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 61,
+                            "attrValue": "     0.00Kbps",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 62,
+                            "attrValue": "     0.00Kbps",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        }
+                    ],
+                    [
+                        {
+                            "id": 63,
+                            "attrValue": "eth3",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 64,
+                            "attrValue": "0A:49:44:73:6E:A4",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 65,
+                            "attrValue": "Ethernet",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 66,
+                            "attrValue": "0Mbps",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 67,
+                            "attrValue": "     0.00Kbps",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        },
+                        {
+                            "id": 68,
+                            "attrValue": "     0.00Kbps",
+                            "ciAttrTableDto": null,
+                            "table": false
+                        }
+                    ]
+                ]
+            }
+        }
+    ]
+}
